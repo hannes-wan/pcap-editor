@@ -1,0 +1,13 @@
+[package]
+name = "pcap-editor"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+log = "0.4"
+simple_logger = "4.0"
+pcap-file = "0.6.0"
+seahash = "4.1"
+chrono = "0.4"
